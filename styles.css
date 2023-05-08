@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 :root {
     --branco-principal: #F2F2F2;
@@ -16,6 +16,9 @@
 body {
     background-color: var(--cor-background);
     color: var(--branco-principal);
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .principal {
@@ -30,16 +33,27 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
 .container__botao {
     background-color: var(--azul-terciario);
     border-radius: 8px;
     padding: 1em;
     color: var(--branco-principal);
-    font-family: var(--font-principal);
     display: block;
+    text-decoration: none;
 }
 
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 0.75rem;
+    color: var(--cinza-secundario);
+    font-weight: 400;
 }
