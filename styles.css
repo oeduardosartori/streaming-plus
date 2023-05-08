@@ -68,3 +68,25 @@ body {
     color: var(--cinza-secundario);
     font-weight: 400;
 }
+
+.container__secundario {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
