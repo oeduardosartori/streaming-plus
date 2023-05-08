@@ -18,3 +18,10 @@ body {
     color: var(--branco-principal);
 }
 
+.principal {
+    background-image: url("assets/Background.png");
+}
+
+.container {
+    height: 100vh;
+}
