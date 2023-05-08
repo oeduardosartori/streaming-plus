@@ -27,3 +27,11 @@ body {
 .container {
     height: 100vh;
 }
+
+.container__botao {
+    background-color: var(--azul-terciario);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--branco-principal);
+    font-family: var(--font-principal);
+}
