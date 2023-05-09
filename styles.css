@@ -120,6 +120,7 @@ body {
 }
 
 .lista__itens {
-    font-size: 2rem;
     color: var(--branco-principal);
+    font-size: 2rem;
+    font-weight: 700;
 }
