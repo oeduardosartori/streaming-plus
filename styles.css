@@ -14,6 +14,7 @@
 }
 
 body {
+    box-sizing: border-box;
     background-color: var(--cor-background);
     color: var(--branco-principal);
     font-family: var(--font-principal);
@@ -36,7 +37,7 @@ body {
 }
 
 .container__caixa {
-    margin: 0 6em;
+    padding: 3% 5%;
 }
 
 .container__titulo {
@@ -45,7 +46,8 @@ body {
 }
 
 .container__imagem {
-    margin: 1em 0 1em 0;
+    display: flex;
+    padding: 5% 0% 5% 0%;
 }
 
 .container__botao {
@@ -71,13 +73,9 @@ body {
 
 .container__secundario {
     width: 80%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.container__secundario {
+    display: flex;
     align-items: center;
-    margin: 5em 5em 5em 5em;
+    padding: 2% 5%;
 }
 
 .descricao__titulo {
@@ -97,6 +95,7 @@ body {
 }
 
 .container__decricao {
+    display: flex;
     padding: 2em;
 }
 
