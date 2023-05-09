@@ -45,7 +45,7 @@ body {
 }
 
 .container__imagem {
-    margin: 1em 0 2em 0;
+    margin: 1em 0 1em 0;
 }
 
 .container__botao {
@@ -100,4 +100,26 @@ body {
     padding: 2em;
 }
 
+.dispositivos {
+    text-align: center;
+}
 
+.dispositivos__titulo {
+    font-family: var(--font-principal);
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-family: var(--font-principal);
+    margin: 5em 0;
+}
+
+.lista__itens {
+    font-size: 2rem;
+    color: var(--branco-principal);
+}
