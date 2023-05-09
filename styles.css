@@ -124,3 +124,30 @@ body {
     font-size: 2rem;
     font-weight: 700;
 }
+
+.rodape {
+    text-align: center;
+    padding: 5% 4%;
+}
+
+.rodape__logo {
+    padding: 2%;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 3%;
+}
+
+.lista__link a{
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.rodape__texto {
+    color: var(--cinza-secundario);
+    font-size: 0.85rem;
+    padding: 1% 0% 0.5% 0%;
+}
